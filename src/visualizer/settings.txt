@@ -1,0 +1,6 @@
+DatabaseName=telemetry
+DatabaseRole=teleuser
+DatabasePassword=teleuser
+DataCacheSize=10
+ArduinoUSBUID=7553334343635181F152
+DatabaseConnectionAttempts=2

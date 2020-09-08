@@ -1,0 +1,4 @@
+data_cluster_path=../postgres/cluster
+postgres_binary_path=../postgres/pgsql/bin
+backup_path=../postgres/backup
+export_path=./export.csv

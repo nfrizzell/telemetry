@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Parameters>
+    <Modules>
+        <!--
+        glossary:
+        "label" = the name that the module/sensor shows up as in the gui
+        "unit" = the unit appended to each value
+        "lcb" = lower critical bound
+        "lb" = lower bound
+        "ub" = upper bound
+        "ucb" = upper critical bound
+        -->
+        <main_battery label="Main Battery">
+            <voltage label="Voltage" unit="V" lcb="47" lb="48" ub="52" ucb="53"/>
+            <amp_hours label="Charge" unit="%" lcb="20" lb="40" ub="110" ucb="130"/>
+            <amperage label="Amperage" unit="A" lcb="-9999" lb="-9998" ub="250" ucb="290"/>
+        </main_battery>
+
+        <aux_battery label="Auxiliary Battery">
+            <voltage label="Voltage" unit="V" lcb="9" lb="10" ub="13" ucb="14"/>
+        </aux_battery>
+
+        <dht11 label="Temperature">
+            <temperature label="Battery Box Temperature" unit="F°" lcb="-9999" lb="-9998" ub="110" ucb="115"/>
+        </dht11>
+
+	<!--
+        <hall_effect_sensor label="Hall Effect Sensor">
+            <rpm label="RPM" unit="" lcb="-9999" lb="-9998" ub="9998" ucb="9999"/>
+            <speed label="Speed" unit="MPH" lcb="-9999" lb="-9998" ub="35" ucb="37"/>
+        </hall_effect_sensor>
+	-->
+
+        <rfm95 label="RFM95W">
+            <rssi label="RSSI" unit="" lcb="-130" lb="-120" ub="9998" ucb="9999"/>
+        </rfm95>
+
+    </Modules>
+</Parameters>
