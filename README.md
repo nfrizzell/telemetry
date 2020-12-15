@@ -1,6 +1,6 @@
 # Telemetry
 
-This is a set of telemetry tools developed for the Bath County Solar Car Team. As of right now it consists of the
+This is a set of telemetry tools developed for the Solar Car Challenge. As of right now it consists of the
 following programs:
  
    - DBTools
@@ -13,7 +13,7 @@ Compatability:
    - 
    - The programs are designed to work on both Linux and Windows operating systems.
    - The arduino code was written to run on an Arduino Uno.
-   - Due to complications a database "template" is not provided in the repo. Because of this some of the installation scripts will not work out of the box using only the files provided here.
+   - Due to complications a database "template", as well as a few other system-specific files, are not included here. Because of this some of the installation scripts will not work out of the box using only the files provided here.
 
 Dependencies:
    -
