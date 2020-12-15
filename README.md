@@ -1,6 +1,6 @@
 # Telemetry
 
-This is a set of telemetry tools developed for the Bath County Solar Car Team by Nicholas Frizzell. As of right now it consists of the
+This is a set of telemetry tools developed for the Bath County Solar Car Team. As of right now it consists of the
 following programs:
  
    - DBTools
@@ -13,7 +13,7 @@ Compatability:
    - 
    - The programs are designed to work on both Linux and Windows operating systems.
    - The arduino code was written to run on an Arduino Uno.
-   - Due to the fickle nature of running a PostgreSQL instance (as well as potential security problems), a working copy of the database schema is not provided. Contact me for more info.
+   - Due to complications a database "template" is not provided in the repo. Because of this some of the installation scripts will not work out of the box using only the files provided here.
 
 Dependencies:
    -
@@ -31,17 +31,3 @@ Specifications:
    - 
    - Radio frequency: 905MHz
    - Resistor values for high voltage ADC: 10k and 100k (Drop ~52V to ~4.4V)
-   
-   
-Installation:
-   -
-   - PC
-      - Ensure that a recent version of Python 3 is installed on the system
-      - Run setup.sh. This script is designed to install all other dependencies for Linux and Windows. It also initializes the PostgreSQL database.
-
-ToDo:
-   - 
-   - Fix dbtools to work on Windows; currently there is a trivial issue with backslashes that I need to fix.
-   - Add code comments and make documentation better overall
-   - Enable editing of program settings from within the application, without needing to manually edit the XML & settings files.
-   - Test the backup and restore functionalities of the dbtools program more thoroughly
