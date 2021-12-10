@@ -1,7 +1,5 @@
 # Telemetry
 
-![GUI in debug mode](visualizer.png)
-
 This is a set of telemetry tools developed for the Solar Car Challenge. As of right now it consists of the
 following programs:
  
@@ -9,6 +7,8 @@ following programs:
        - A GUI wrapper around several PostgreSQL and command line tools to simplify database management, data retrieval and visualization, backups and restoring from a previous state, etc.
    - Telemetry
        - The actual telemetry software, which interfaces with various sensors and inputs from the car, transmits them using a LoRa radio module, then appends it to the database, which is queried to provide data information and visualization to the operator
+
+![GUI in debug mode](visualizer.png)
        
 Compatability:
    - 
