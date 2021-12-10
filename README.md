@@ -1,5 +1,7 @@
 # Telemetry
 
+![GUI in debug mode](visualizer.png)
+
 This is a set of telemetry tools developed for the Solar Car Challenge. As of right now it consists of the
 following programs:
  
@@ -8,12 +10,11 @@ following programs:
    - Telemetry
        - The actual telemetry software, which interfaces with various sensors and inputs from the car, transmits them using a LoRa radio module, then appends it to the database, which is queried to provide data information and visualization to the operator
        
-       
 Compatability:
    - 
    - The programs are designed to work on both Linux and Windows operating systems.
    - The arduino code was written to run on an Arduino Uno.
-   - Due to complications a database "template", as well as a few other system-specific files, are not included here. Because of this some of the installation scripts will not work out of the box using only the files provided here.
+   - Due to complications SQL data definition scripts, as well as a few system-specific files, are not included here. Because of this some of the installation scripts may not work out of the box using only the files provided here. Contact me for more info.
 
 Dependencies:
    -
